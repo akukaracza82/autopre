@@ -13,7 +13,7 @@ wait.until { driver.page_source.include?("password") }
 driver.find_element(id: 'driver-login-username').send_keys("12357")
 driver.find_element(id: 'driver-login-password').send_keys("Password1", :enter)
 
-POSTCODES = [ ' SE18', ' SE3', ' SE10', ' SE11', " ME1", ' ME2', ' ME3', ' ME4', ' ME5', ' ME6', ' ME7', ' ME8', ' ME13', ' ME14',
+POSTCODES = [" ME1", ' ME2', ' ME3', ' ME4', ' ME5', ' ME6', ' ME7', ' ME8', ' ME13', ' ME14',
             ' ME15', ' ME16', ' ME17', ' ME18', ' ME19', ' ME20', ' TN1', ' TN2', ' TN3', ' TN4',
             ' TN5', ' TN9', ' TN11', ' TN12', ' TN17', ' TN23', ' TN24', ' TN25', ' CT1', ' CT2',
             ' CT3', ' TN14', ' TN15', ' TN13', ' TN18']
