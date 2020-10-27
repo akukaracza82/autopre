@@ -18,7 +18,7 @@ POSTCODES = [' TN1',  ' TN2', ' TN3', ' TN4', " TN9", ' TN10',' TN11',' TN12',
              ' TN25', ' TN26',' TN27',' ME1', ' ME2', ' ME3', ' ME4', ' ME5',
              ' ME6',  ' ME7', ' ME8', ' ME9', ' ME10',' ME11',' ME12',' ME13',
              ' ME14', ' ME15',' ME16',' ME17',' ME18',' ME19',' ME20',' CT1',
-             ' CT2',  ' CT3', ' CT4',  'SE10', 'SE3', ' SE18', 'E14', ' GATWICK']
+             ' CT2',  ' CT3', ' CT4',  'GATWICK']
 
 loop do
   prebooks = driver.page_source
